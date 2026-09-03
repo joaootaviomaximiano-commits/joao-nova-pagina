@@ -59,7 +59,8 @@
         botao.addEventListener("clik", botaoClicado);
 
         function botaoClicado() {
-            let texto = botao.queruSelector("span")
+            let texto = botao.querySelector("span");
+            texto.textContent++;
         }
     </script>
 
